@@ -5,7 +5,7 @@ export default function Header2() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
-      <header className="bg-gradient-to-b from-emerald-600 to-emerald-300 shadow-lg  text-white">
+      <header className="bg-gradient-to-b from-emerald-600 to-emerald-400 shadow-lg  text-white">
         <div className="container  mx-auto mt-0 px-4 py-4">
           <div className="flex items-center mx-auto justify-between ">
             <Link to="/" className="flex items-center space-x-3">
